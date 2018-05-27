@@ -1,0 +1,29 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+**/node_modules
+
+node_modules/
+
+build
+
+# testing
+coverage
+
+
+# misc
+.DS_Store
+.idea
+npm-debug.log
+
+# Elastic Beanstalk Files
+
+.elasticbeanstalk/*
+
+.elasticbeanstalk/logs
+
+!.elasticbeanstalk/*.cfg.yml
+
+!.elasticbeanstalk/*.global.yml
+
+**/config.js
